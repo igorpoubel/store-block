@@ -7,9 +7,7 @@
     "format": "prettier --write \"**/*.{ts,js,json}\""
   },
   "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "hooks": {}
   },
   "lint-staged": {
     "*.{ts,js,tsx,jsx}": [
